@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyfirstAppMihol.StackPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                
+            </StackLayout>
+            <Label x:Name="lbl"
+                   Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="btn" Text="Vajuta siia" 
+                    BackgroundColor="DarkCyan" BorderColor="Orange"
+                    BorderWidth="7"
+                    FontSize="Large"
+                    Clicked="btn_Clicked"
+                    VerticalOptions="Center">
+
+            </Button>
+            <Button x:Name="btn2" Text="0" 
+                    BackgroundColor="#1A399B" BorderColor="Orange"
+                    BorderWidth="7"
+                    FontSize="Large"
+                    Clicked="btn2_Clicked"
+                    VerticalOptions="Center">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
