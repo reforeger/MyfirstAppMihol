@@ -15,21 +15,21 @@ namespace MyfirstAppMihol
         public Valgusfoor2()
         {
             //InitializeComponent();
-            Label punane = new Label();
+            Label punane = new Label()
             {
                 Text = "Punan",
                 TextColor = Color.Red,
                 FontSize=30,
                 FontAttributes=FontAttributes.Bold
             };
-            Label kollane = new Label();
+            Label kollane = new Label()
             {
                 Text = "Kollane",
                 TextColor = Color.Yellow,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold
             };
-            Label roheline = new Label();
+            Label roheline = new Label()
             {
                 Text = "Roheline",
                 TextColor = Color.Green,
@@ -42,6 +42,7 @@ namespace MyfirstAppMihol
             };
             stackLayout.Orientation = StackOrientation.Horizontal;
             Content = stackLayout;
+
         }
     }
 }
