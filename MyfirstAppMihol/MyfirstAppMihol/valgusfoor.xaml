@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyfirstAppMihol.valgusfoor">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Red" Padding="80" CornerRadius="90" Margin="90,0">
+                <Label x:Name="Redik"
+                       Text="punane"
+                       FontSize="Large">
+                </Label>
+            </Frame>
+            <Frame BackgroundColor="Yellow" Padding="80" CornerRadius="90" Margin="90,0">
+                <Label x:Name="yelik"
+                       Text="kolane"
+                       FontSize="Large">
+                </Label>
+            </Frame>
+            <Frame BackgroundColor="Green" Padding="80" CornerRadius="90" Margin="90,0">
+                <Label x:Name="grinik"
+                       Text="rohaline"
+                       FontSize="Large">
+                </Label>
+            </Frame>
+            <Label x:Name="lbl"
+                   Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="btn" Text="вкл" 
+                    BackgroundColor="Gray"
+                    FontSize="Large"
+                    Clicked="btn_Clicked"
+                    HorizontalOptions=""
+                    Clicked="on_Clicked">
+            </Button>
+            <Button x:Name="btn2" Text="выкл" 
+                    BackgroundColor="Gray" 
+                    FontSize="Large"
+                    Clicked="btn2_Clicked"
+                    VerticalOptions="Center">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -4,10 +4,8 @@
              x:Class="MyfirstAppMihol.StackPage">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout>
-                
-            </StackLayout>
-            <Label x:Name="lbl"
+            
+                <Label x:Name="lbl"
                    Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand" />

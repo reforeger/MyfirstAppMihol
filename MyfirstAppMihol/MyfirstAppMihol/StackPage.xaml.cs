@@ -19,7 +19,7 @@ namespace MyfirstAppMihol
         int clik = 0;
         private void btn_Clicked(object sender, EventArgs e)
         {
-            //btn.Text = "Heloooow ward";
+            btn.Text = "Heloooow ward";
 
             clik++;
             btn.Text = clik.ToString();
