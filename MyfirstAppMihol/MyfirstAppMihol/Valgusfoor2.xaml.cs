@@ -63,7 +63,10 @@ namespace MyfirstAppMihol
             };
             //stackLayout.Orientation = StackOrientation.Horizontal;
             Content = stackLayout;
+            StackLayout stackLayout1 = new StackLayout()
+            {
 
+            };
         }
     }
 }
