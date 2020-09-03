@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Frame BackgroundColor="Red" Padding="80" CornerRadius="90" Margin="90,0">
-                <Label x:Name="Redik"
+                <Label x:Name="redik"
                        Text="punane"
                        FontSize="Large">
                 </Label>
@@ -22,23 +22,20 @@
                        FontSize="Large">
                 </Label>
             </Frame>
-            <Label x:Name="lbl"
-                   Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="Start" 
-                HorizontalOptions="CenterAndExpand" />
-            <Button x:Name="btn" Text="вкл" 
-                    BackgroundColor="Gray"
-                    FontSize="Large"
-                    Clicked="btn_Clicked"
-                    HorizontalOptions=""
-                    Clicked="on_Clicked">
-            </Button>
-            <Button x:Name="btn2" Text="выкл" 
-                    BackgroundColor="Gray" 
-                    FontSize="Large"
-                    Clicked="btn2_Clicked"
-                    VerticalOptions="Center">
-            </Button>
+            <StackLayout>
+                <Button x:Name="btn" Text="вкл" 
+                        BackgroundColor="Gray"
+                        FontSize="Large"
+                        HorizontalOptions=""
+                        Clicked="on_Clicked">
+                </Button>
+                <Button x:Name="btn2" Text="выкл" 
+                        BackgroundColor="Gray" 
+                        FontSize="Large"
+                        Clicked="btn2_Clicked"
+                        VerticalOptions="Center">
+                </Button>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

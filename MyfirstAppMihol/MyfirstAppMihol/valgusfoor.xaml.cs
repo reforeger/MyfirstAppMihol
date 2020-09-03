@@ -17,6 +17,9 @@ namespace MyfirstAppMihol
             InitializeComponent();
         }
         Random rnd = new Random();
-        int redik = 0;
+        //Redik.BackgroundColor = Color.FromRgb(100, 100, 100);
+        //yelik.BackgroundColor = Color.Color;
+        //grinik.BackgroundColor = Color.FromHex("#aaaaaa");
+
     }
 }
